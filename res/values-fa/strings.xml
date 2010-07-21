@@ -92,11 +92,11 @@
     <!-- Menu item -->
     <string name="accounts_action">حساب‌ها</string>
     <!-- Menu item -->
-    <string name="mark_as_read_action">نشانه‌گذاری به عنوان خوانده‌شده</string>
+    <string name="mark_as_read_action">افزودن به خوانده شده‌ها</string>
     <!-- Menu item -->
-    <string name="mark_as_unread_action">نشانه‌گذاری به عنوان خوانده‌نشده</string>
+    <string name="mark_as_unread_action">افزودن به خوانده نشده‌ها</string>
     <!-- Menu item -->
-    <string name="add_cc_bcc_action">افزودن Cc/Bcc</string>
+    <string name="add_cc_bcc_action">افزودن رونوشت/رونوشت پنهان</string>
     <!-- Menu item -->
     <string name="add_attachment_action">افزودن ضمیمه</string>
     <!-- Menu item (debug screen) -->
@@ -194,9 +194,9 @@
     <!-- Hint text in To field -->
     <string name="message_compose_to_hint">به</string>
     <!-- Hint text in Cc field -->
-    <string name="message_compose_cc_hint">Cc</string>
+    <string name="message_compose_cc_hint">رونوشت</string>
     <!-- Hint text in Bcc field -->
-    <string name="message_compose_bcc_hint">Bcc</string>
+    <string name="message_compose_bcc_hint">رونوشت پنهان</string>
     <!-- Hint text in Subject field -->
     <string name="message_compose_subject_hint">موضوع</string>
     <!-- Hint text in Message composer body field -->
@@ -221,7 +221,7 @@
     <!-- Label for To field in read message view -->
     <string name="message_view_to_label">به:</string>
     <!-- Label for CC field in read message view -->
-    <string name="message_view_cc_label">Cc:</string>
+    <string name="message_view_cc_label">رونوشت:</string>
     <!-- Menu item -->
     <string name="message_view_attachment_view_action">باز کن</string>
     <!-- Button name -->
@@ -475,10 +475,6 @@
     <!-- On settings screen, sync contacts summary text -->
     <string name="account_settings_sync_contacts_summary">آشنایان را توسط این حساب نیز همگام کن</string>
 
-    <!-- On Settings screen, setting check box label -->
-    <string name="account_settings_vibrate_enable">لرزش</string>
-    <!-- On Settings screen, setting summary text -->
-    <string name="account_settings_vibrate_summary">هنگام رسیدن پست الکترونیکی بلرز</string>
     <!-- On Settings screen, setting option name -->
     <string name="account_settings_ringtone">انتخاب صدای زنگ</string>
     <!-- On Settings screen, section heading -->
@@ -504,4 +500,22 @@
 
 	<!-- Message that appears if the AccountManager cannot create the system Account -->
 	<string name="system_account_create_failed">مدیر حساب‌ها نمی‌تواند حساب ایجاد کند؛ لطفا مجددا امتحان کنید.</string>
+	<!-- Added by Behdad -->
+	<!-- On Settings screen, setting option name -->
+	<string name="account_settings_signature_label">امضا</string>
+	<!-- On Settings screen, setting option name -->
+	<string name="account_settings_signature_hint">متنی را برای افزودن به پیام‌هایتان اضافه کنید</string>
+    <!-- On Settings screen, vibrate pop-up menu label -->
+    <string name="account_settings_vibrate_when_label">لرزش</string>
+    <!-- On Settings screen, vibrate pop-up menu summary text -->
+    <string name="account_settings_vibrate_when_summary">همچنین هنگام رسیدن پست‌الکترونیکی بلرز</string>
+    <!-- On Settings screen, vibrate pop-up menu option "always" text -->
+    <string name="account_settings_vibrate_when_always">همیشه</string>
+    <!-- On Settings screen, vibrate pop-up menu option "silent" text -->
+    <string name="account_settings_vibrate_when_silent">فقط در حالت بی‌صدا</string>
+    <!-- On Settings screen, vibrate pop-up menu option "never" text -->
+    <string name="account_settings_vibrate_when_never">هیچوقت</string>
+
+    <!-- Dialog title for the Vibrate dialog -->
+    <string name="account_settings_vibrate_when_dlg_title">لرزش</string>
 </resources>
