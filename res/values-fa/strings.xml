@@ -16,23 +16,54 @@
 
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
+    <!-- Deprecated strings - Move the identifiers to this section, mark as DO NOT TRANSLATE,
+         and remove the actual text.  These will be removed in a bulk operation. -->
+    <!-- Do Not Translate.  Unused string. -->
+    <string name="meeting_invitation"></string>
+    <!-- Do Not Translate.  Unused string. -->
+    <string name="account_setup_failed_security_policies_required"></string>
+    <!-- Do Not Translate.  Unused string. -->
+    <string name="account_folder_list_summary_unread"></string>    
+    <!-- Do Not Translate.  Unused string. -->
+    <string name="account_settings_add_account_label"></string>
+    <!-- Do Not Translate.  Unused string. -->
+    <string name="account_setup_basics_instructions"></string>
+    <!-- Do Not Translate.  Unused string. -->
+    <string name="account_setup_exchange_domain_hint"></string>
+    <!-- Do Not Translate.  Unused string. -->
+    <string name="account_setup_exchange_domain_label"></string>
+    <!-- Do Not Translate.  Unused string. -->
+    <string name="account_setup_options_mail_window_all"></string>
+    <!-- Do Not Translate.  Unused string. -->
+    <string name="accounts_context_menu_title"></string>
+    <!-- Do Not Translate.  Unused string. -->
+    <string name="accounts_title"></string>
+    <!-- Do Not Translate.  Unused string. -->
+    <string name="add_contact_dlg_message_fmt"></string>
+    <!-- Do Not Translate.  Unused string. -->
+    <string name="add_contact_dlg_title"></string>
+    <!-- Do Not Translate.  Unused string. -->
+    <string name="message_list_title"></string>
+    <!-- Do Not Translate.  Unused string. -->
+    <string name="status_loading_more_failed"></string>
+    <!-- Do Not Translate.  Unused string. -->
+    <string name="status_sending_messages_failed"></string>
+
     <!-- Permissions label for reading attachments -->
-    <string name="read_attachment_label">خواندن ضمیمه‌های پست الکترونیکی</string>
+    <string name="read_attachment_label">خواندن ضمیمه‌های نامه</string>
     <!-- Permissions description for reading attachments -->
-    <string name="read_attachment_desc">به این برنامه اجازه می‌دهد که ضمیمه‌های پست الکترونیکی شما را بخواند.</string>
+    <string name="read_attachment_desc">به این برنامه اجازه داده شود ضمیمه‌های نامه را بخواند.</string>
     <!-- Permissions label for accessing the main provider -->
     <string name="permission_access_provider_label">دسترسی به داده‌های پست الکترونیکی</string>
     <!-- Permissions description for accessing the main provider -->
-    <string name="permission_access_provider_desc">به این برنامه اجازه می‌دهد که به پایگاه‌دادهٔ پست الکترونیکی شامل پیغام‌های دریافت‌شده، پیغام‌های ارسال‌شده، نام‌های کاربری و گذرواژه‌ها دسترسی داشته باشد.</string>
+    <string name="permission_access_provider_desc">به این برنامه اجازهٔ دسترسی به پایگاه دادهٔ پست الکترونیکی شما، شامل نامه‌های دریافتی، نامه‌های ارسالی، نام‌های کاربری و گذرواژه‌ها داده می‌شود.</string>
 
     <!-- Name of application on Home screen -->
     <string name="app_name">پست الکترونیکی</string>
-    <!-- Title of Accounts screen -->
-    <string name="accounts_title">پست الکترونیکی</string>
     <!-- Title of compose screen -->
-    <string name="compose_title">نوشتن</string>
+    <string name="compose_title">ساختن</string>
     <!-- Title of debug screen -->
-    <string name="debug_title">رفع عیب</string>
+    <string name="debug_title">باگ‌گیری</string>
 
     <!-- Actions will be used as buttons and in menu items -->
     <skip />
@@ -40,45 +71,45 @@
     <!-- Used as part of a multi-step process -->
     <string name="next_action">بعدی</string> 
     <!--  Button name used to confirm acceptance of dialog boxes, warnings, errors, etc. -->
-    <string name="okay_action">قبول</string> 
+    <string name="okay_action">خُب</string>
     <!--  Button name used to cancel out of dialog boxes -->
-    <string name="cancel_action">لغو</string>
+    <string name="cancel_action">نه</string>
     <!-- Menu item/button name -->
     <string name="send_action">ارسال</string>
     <!-- Menu item/button name -->
-    <string name="reply_action">جواب</string>
+    <string name="reply_action">پاسخ</string>
     <!-- Menu item/button name -->
-    <string name="reply_all_action">جواب به همه</string>
+    <string name="reply_all_action">پاسخ به همه</string>
     <!-- Menu item/button name -->
     <string name="delete_action">حذف</string>
     <!-- Menu item/button name -->
-    <string name="forward_action">ارجاع</string>
+    <string name="forward_action">فوروارد</string>
     <!--  Button name used to complete a multi-step process -->
-    <string name="done_action">اتمام</string> 
+    <string name="done_action">اتمام</string>
     <!-- Menu item/button name -->
-    <string name="discard_action">دور انداختن</string>
+    <string name="discard_action">دورانداختن</string>
     <!-- Menu item/button name -->
-    <string name="save_draft_action">ذخیره به عنوان پیش‌نویس</string>
+    <string name="save_draft_action">ذخیره به شکل چرک‌نویس</string>
     <!-- Menu item/button name -->
     <string name="read_unread_action">خوانده‌شده/خوانده‌نشده</string>
     <!-- Menu item/button name -->
-    <string name="read_action">نشان خوانده‌شده</string>
+    <string name="read_action">خوانده شد</string>
     <!-- Menu item/button name -->
-    <string name="unread_action">نشان خوانده‌نشده</string>
+    <string name="unread_action">خوانده نشد</string>
     <!-- Menu item/button name -->
-    <string name="favorite_action">مورد علاقه</string>
+    <string name="favorite_action">جالب</string>
     <!-- Menu item/button name -->
-    <string name="set_star_action">افزودن ستاره</string>
+    <string name="set_star_action">ستاره‌دار کردن</string>
     <!-- Menu item/button name -->
     <string name="remove_star_action">حذف ستاره</string>
     <!-- Menu item -->
     <string name="refresh_action">بازخوانی</string>
     <!-- Menu item -->
-    <string name="add_account_action">افزودن حساب</string>
+    <string name="add_account_action">اضافه کردن حساب</string>
     <!-- Menu item -->
-    <string name="deselect_all_action">عدم انتخاب همه</string>
+    <string name="deselect_all_action">انتخاب هیچ کدام</string>
     <!-- Menu item -->
-    <string name="compose_action">نوشتن</string>
+    <string name="compose_action">ساختن</string>
     <!-- Menu item/button name -->
     <string name="search_action">جستجو</string>
     <!-- Menu item/button name -->
@@ -88,60 +119,68 @@
     <!-- Menu item -->
     <string name="remove_account_action">حذف حساب</string>
     <!-- Menu item -->
-    <string name="folders_action">پوشه‌ها</string>
+    <string name="folders_action">پرونده‌ها</string>
     <!-- Menu item -->
     <string name="accounts_action">حساب‌ها</string>
     <!-- Menu item -->
-    <string name="mark_as_read_action">افزودن به خوانده شده‌ها</string>
+    <string name="mark_as_read_action">خوانده شد</string>
     <!-- Menu item -->
-    <string name="mark_as_unread_action">افزودن به خوانده نشده‌ها</string>
+    <string name="mark_as_unread_action">خوانده نشد</string>
     <!-- Menu item -->
-    <string name="add_cc_bcc_action">افزودن رونوشت/رونوشت پنهان</string>
+    <string name="add_cc_bcc_action">افزودن رونوشت یا رونوشت پنهان</string>
     <!-- Menu item -->
     <string name="add_attachment_action">افزودن ضمیمه</string>
     <!-- Menu item (debug screen) -->
-    <string name="dump_settings_action">تخلیهٔ تنظیمات</string>
+    <string name="dump_settings_action">نسخه‌برداری از تنظیمات</string>
     <!-- Appears in choose attachment dialog title -->
     <string name="choose_attachment_dialog_title">انتخاب ضمیمه</string>
-    <!-- Title of account context menu -->
-    <string name="accounts_context_menu_title">گزینه‌های حساب</string>
     <!-- Appears in message list view while messages are being loaded -->
-    <string name="status_loading_more">در حال بارگذاری پیغام‌ها \u2026</string>
+    <string name="status_loading_more">در حال دریافت نامه‌ها\u2026</string>
     <!-- Appears in message list view of outbox while messages are being sent -->
-    <string name="status_sending_messages">در حال ارسال پیغام‌ها \u2026</string>
+    <string name="status_sending_messages">در حال ارسال نامه‌ها\u2026</string>
     <!-- Appears in message list view when there's a network error. -->
     <!-- Also appears in a toast, in the message viewer, when there's a network error. -->
     <string name="status_network_error">خطای اتصال</string>
-    <!-- Appears in message list view when error when trying to "Load more messages". -->
-    <string name="status_sending_messages_failed">تلاش مجدد برای ارسال پیغام‌ها</string>
-    <!-- Appears in message list view when error when trying to "Load more messages". -->
-    <string name="status_loading_more_failed">تلاش مجدد برای بارگذاری پیغام‌های بیشتر</string>
     <!-- Notification title in status bar -->
-    <string name="notification_new_title">پست الکترونیکی جدید</string>
+    <string name="notification_new_title">نامهٔ جدید</string>
     <!-- Dialog text when we are unable to load the message for display -->
-    <string name="error_loading_message_body">خطای غیرمنتظره هنگام بارگذاری متن پیغام. شاید پیغام بزرگتر از آن است که بتوان مشاهده کرد.</string>
+    <string name="error_loading_message_body">دریافت متن نامه با مشکل مواجه شد. احتمالاً نامه بیش از حد طولانی است.</string>
 
     <!-- Notification message in notifications window when one account has
          one or more new messages; e.g, "279 unread (someone@google.com)". -->
     <plurals name="notification_new_one_account_fmt">
         <!-- Case of one new message. -->
-        <item quantity="one"><xliff:g id="unread_message_count" example="1">%d</xliff:g> خوانده‌نشده (<xliff:g id="account">%s</xliff:g>)</item> 
+        <item quantity="one"><xliff:g id="unread_message_count" example="1">%1$Ld</xliff:g> نامهٔ خوانده‌نشده (<xliff:g id="account">%2$Ls</xliff:g>)</item>
 
         <!-- Case of "few" (small number of) new messages. -->
-        <item quantity="few"><xliff:g id="unread_message_count" example="2">%d</xliff:g> خوانده‌نشده (<xliff:g id="account">%s</xliff:g>)</item> 
+        <item quantity="few"><xliff:g id="unread_message_count" example="2">%1$Ld</xliff:g> نامهٔ خوانده‌نشده (<xliff:g id="account">%2$Ls</xliff:g>)</item> 
 
         <!-- Case of a plural number of new messages. -->
-        <item quantity="other"><xliff:g id="unread_message_count" example="279">%d</xliff:g> خوانده‌نشده (<xliff:g id="account">%s</xliff:g>)</item>
+        <item quantity="other"><xliff:g id="unread_message_count" example="279">%1$Ld</xliff:g> نامهٔ خوانده‌نشده (<xliff:g id="account">%2$Ls</xliff:g>)</item>
     </plurals>
 
 
     <!-- Notification message in notifications window when 2+ accounts have new mail; e.g, "in 3 accounts". -->
     <plurals name="notification_new_multi_account_fmt">
         <!-- Case of "few" (small number of) accounts with unread messages. -->
-        <item quantity="few">در <xliff:g id="number_accounts" example="2">%d</xliff:g> حساب</item>
+        <item quantity="few">در <xliff:g id="number_accounts" example="2">%Ld</xliff:g> حساب</item>
         <!-- Case of plural number of accounts with unread messages. -->
-        <item quantity="other">در <xliff:g id="number_accounts" example="10">%d</xliff:g> حساب</item>
+        <item quantity="other">در <xliff:g id="number_accounts" example="10">%Ld</xliff:g> حساب</item>
     </plurals>
+
+    <!-- The next set of strings are used server-side and must not be localized. -->
+    <!-- Do Not Translate.  This is the name of the "inbox" folder, on the server. -->
+    <string name="mailbox_name_server_inbox">Inbox</string>
+    <!-- Do Not Translate.  This is the name of the "outbox" folder, on the server. -->
+    <string name="mailbox_name_server_outbox">Outbox</string>
+    <!-- Do Not Translate.  This is the name of the "drafts" folder, on the server. -->
+    <string name="mailbox_name_server_drafts">Drafts</string>
+    <!-- Do Not Translate.  This is the name of the "trash" folder, on the server. -->
+    <string name="mailbox_name_server_trash">Trash</string>
+    <!-- Do Not Translate.  This is the name of the "sent" folder, on the server. -->
+    <string name="mailbox_name_server_sent">Sent</string>
+    <!-- Do Not Translate.  This is the name of the "junk" folder, on the server. -->
+    <string name="mailbox_name_server_junk">Junk</string>
 
     <!-- The next set of strings are used in local display and may be localized. -->
     <!-- In the UI, the inbox will be displayed with this name -->
@@ -149,48 +188,46 @@
     <!-- In the UI, the outbox will be displayed with this name -->
     <string name="mailbox_name_display_outbox">صندوق خروجی</string>
     <!-- In the UI, the drafts will be displayed with this name -->
-    <string name="mailbox_name_display_drafts">پیش‌نویس‌ها</string>
+    <string name="mailbox_name_display_drafts">چرک‌نویس‌ها</string>
     <!-- In the UI, the trash will be displayed with this name -->
     <string name="mailbox_name_display_trash">سطل زباله</string>
     <!-- In the UI, the sent will be displayed with this name -->
     <string name="mailbox_name_display_sent">ارسال‌شده</string>
     <!-- In the UI, the junk will be displayed with this name -->
-    <string name="mailbox_name_display_junk">بنجل</string>
+    <string name="mailbox_name_display_junk">بی‌ارزش</string>
 
     <!-- Version number, shown only on debug screen -->
-    <string name="debug_version_fmt">نسخه: <xliff:g id="version">%s</xliff:g></string>
-    <!-- Checkbox label, shown only on debug screen -->
-    <string name="debug_enable_debug_logging_label">Enable extra debug logging?</string>
-    <!-- Checkbox label, shown only on debug screen -->
-    <string name="debug_enable_sensitive_logging_label">Enable sensitive information debug logging? (May show passwords in logs.)</string>
-    <!-- Checkbox label, shown only on debug screen -->
-    <string name="debug_enable_exchange_logging_label">Enable exchange parser logging? (Extremely verbose)</string>
-    <!-- Checkbox label, shown only on debug screen -->
-    <string name="debug_enable_exchange_file_logging_label">Enable exchange sd card logging?</string>
+    <string name="debug_version_fmt">نسخه: <xliff:g id="version">%Ls</xliff:g></string>
+    <!-- Do Not Translate.  Checkbox label, shown only on debug screen -->
+    <string name="debug_enable_debug_logging_label" translatable="false">Enable extra debug logging?</string>
+    <!-- Do Not Translate.  Checkbox label, shown only on debug screen -->
+    <string name="debug_enable_sensitive_logging_label" translatable="false">Enable sensitive information debug logging? (May show passwords in logs.)</string>
+    <!-- Do Not Translate.  Checkbox label, shown only on debug screen -->
+    <string name="debug_enable_exchange_logging_label" translatable="false">Enable exchange parser logging? (Extremely verbose)</string>
+    <!-- Do Not Translate.  Checkbox label, shown only on debug screen -->
+    <string name="debug_enable_exchange_file_logging_label" translatable="false">Enable exchange sd card logging?</string>
 
     <!-- The text in the small separator between smart folders and the accounts -->
     <string name="account_folder_list_separator_accounts">حساب‌ها</string>
     <!-- The summary section entry in the AccountFolder list to display all inboxes -->
-    <string name="account_folder_list_summary_inbox">صندوق ورودی جمعی</string>
-    <!-- The summary section entry in the AccountFolder list to display all unread -->
-    <string name="account_folder_list_summary_unread">خوانده‌نشده</string>
+    <string name="account_folder_list_summary_inbox">صندوق ورودی یکپارچه</string>
     <!-- The summary section entry in the AccountFolder list to display all starred -->
-    <string name="account_folder_list_summary_starred">ستاره‌دار</string>
+    <string name="account_folder_list_summary_starred">ستاره‌دارها</string>
     <!-- The summary section entry in the AccountFolder list to display all drafts -->
-    <string name="account_folder_list_summary_drafts">پیش‌نویس‌ها</string>
+    <string name="account_folder_list_summary_drafts">چرک‌نویس‌ها</string>
     <!-- The summary section entry in the AccountFolder list to display all outboxes -->
     <string name="account_folder_list_summary_outbox">صندوق خروجی</string>
+    <!-- Toast that appears when you select "Refresh" menu option -->
+    <string name="account_folder_list_refresh_toast">برای بازخوانی یک حساب، انگشت خود را بر روی آن نگه دارید.</string>
 
     <!-- Title of the screen that shows a list of mailboxes for an account -->
-    <string name="mailbox_list_title">صندوق پستی</string>
+    <string name="mailbox_list_title">صندوق نامه</string>
 
     <!-- Appears at the bottom of list of messages; user selects to load more messages from that folder. -->
-    <string name="message_list_load_more_messages_action">بارگذاری پیغام‌های بیشتر</string>
+    <string name="message_list_load_more_messages_action">دریافت نامه‌های بیشتر</string>
     <!-- Appears at the bottom of list of messages of outbox;
          user selects to send pending messages. -->
-    <string name="message_list_send_pending_messages_action">ارسال پیغام‌های خروجی</string>
-    <!-- Appears at the title bar of list of messages. -->
-    <string name="message_list_title"><xliff:g id="account">%s</xliff:g>: <xliff:g id="mailbox">%s</xliff:g></string>
+    <string name="message_list_send_pending_messages_action">ارسال نامه‌های فرستاده‌نشده</string>
     <!-- Hint text in To field -->
     <string name="message_compose_to_hint">به</string>
     <!-- Hint text in Cc field -->
@@ -200,188 +237,212 @@
     <!-- Hint text in Subject field -->
     <string name="message_compose_subject_hint">موضوع</string>
     <!-- Hint text in Message composer body field -->
-    <string name="message_compose_body_hint">نوشتن پیغام</string>    
+    <string name="message_compose_body_hint">نامه نوشتن</string>    
     <!-- Header for forwarded original messages -->
-    <string name="message_compose_fwd_header_fmt">\n\n-------- Original Message --------\nSubject: <xliff:g id="subject">%s</xliff:g>\nFrom: <xliff:g id="sender">%s</xliff:g>\nTo: <xliff:g id="to">%s</xliff:g>\nCC: <xliff:g id="cc">%s</xliff:g>\n\n</string>
+    <string name="message_compose_fwd_header_fmt">‏\n\n-------- نامهٔ اصلی --------\nموضوع: <xliff:g id="subject">%1$Ls</xliff:g>\nاز: <xliff:g id="sender">%2$Ls</xliff:g>\nبه: <xliff:g id="to">%3$Ls</xliff:g>\nرونوشت: <xliff:g id="cc">%4$Ls</xliff:g>\n\n</string>
     <!-- Header for replied-to messages -->
-    <string name="message_compose_reply_header_fmt">\n\n<xliff:g id="sender">%s</xliff:g> نوشته است:\n\n</string>
+    <string name="message_compose_reply_header_fmt">\n\n<xliff:g id="sender">%Ls</xliff:g> نوشت:\n\n</string>
     <!-- Heading that appears before forwarded text -->
-    <string name="message_compose_quoted_text_label">متن نقلی</string>
+    <string name="message_compose_quoted_text_label">متن قبلی</string>
     <!-- Toast that appears if you try to send with no recipients. -->
-    <string name="message_compose_error_no_recipients">شما حداقل باید یک گیرنده انتخاب کنید.</string>
+    <string name="message_compose_error_no_recipients">بدون گیرنده نمی‌شود.</string>
     <!-- An address field contains invalid email addresses. -->
-    <string name="message_compose_error_invalid_email">بعضی از نشانی‌های پست‌های الکترونیکی نامعتبر هستند.</string>
+    <string name="message_compose_error_invalid_email">بعضی از نشانی‌های پست الکترونیکی غیر معتبر است.</string>
     <!-- Toast that appears in the context of forwarding a message with attachment(s) -->
-    <string name="message_compose_attachments_skipped_toast">بعضی از ضمیمه‌ها نمی‌توانند ارجاع شوند، چون آنها بارگیری نشده‌اند.</string>
+    <string name="message_compose_attachments_skipped_toast">بعضی از ضمیمه‌ها  دریافت نشده‌اند و نمی‌توان آن‌ها را فوروارد کرد.</string>
     <!-- Toast that appears when an attachment is too big to send. -->
-    <string name="message_compose_attachment_size">پرونده برای ضمیمه‌شدن بزرگ است.</string>
+    <string name="message_compose_attachment_size">پرونده‌ای با این حجم را نمی‌توان ضمیمه کرد.</string>
     <!-- Display name for composed message, indicating the destination of the message.
       e.g. "John and 2 others" -->
-    <string name="message_compose_display_name"><xliff:g id="name" example="John">%1$s</xliff:g> و <xliff:g id="number" example="27">%2$d</xliff:g> نفر دیگر</string>
+    <string name="message_compose_display_name"><xliff:g id="name" example="John">%1$Ls</xliff:g> و <xliff:g id="number" example="27">%2$Ld</xliff:g> نفر دیگر</string>
     <!-- Label for To field in read message view -->
     <string name="message_view_to_label">به:</string>
     <!-- Label for CC field in read message view -->
     <string name="message_view_cc_label">رونوشت:</string>
     <!-- Menu item -->
-    <string name="message_view_attachment_view_action">باز کن</string>
+    <string name="message_view_attachment_view_action">باز کردن</string>
     <!-- Button name -->
-    <string name="message_view_attachment_download_action">ذخیره کن</string>
+    <string name="message_view_attachment_download_action">ذخیره</string>
     <!-- Toast after saving attachment -->
-    <string name="message_view_status_attachment_saved">ضمیمهٔ پست الکترونیکی در کارت‌حافظه به اسم <xliff:g id="filename">%s</xliff:g>ذخیره شد.</string>
+    <string name="message_view_status_attachment_saved">ضمیمه با عنوان <xliff:g id="filename">%Ls</xliff:g>در کارت حافظه ذخیره شد.</string>
     <!-- Toast after attachment could not be saved-->
-    <string name="message_view_status_attachment_not_saved">ضمیمهٔ پست الکترونیکی را نمی‌توان در کارت‌حافظه ذخیره کرد.</string>
+    <string name="message_view_status_attachment_not_saved">امکان ذخیرهٔ ضمیمه وجود ندارد.</string>
     <!-- Displayed in message view -->
-    <string name="message_view_show_pictures_instructions">برای نمایش تصاویر داخلی پست‌های الکترونیکی، نمایش تصاویر را انتخاب کنید.</string>
+    <string name="message_view_show_pictures_instructions">برای دیدن تصاویر نامه‌، گزینهٔ «نمایش تصاویر» را انتخاب کنید.</string>
     <!-- Button on email opened for reading -->
     <string name="message_view_show_pictures_action">نمایش تصاویر</string>
     <!-- Toast while fetching attachment -->
-    <string name="message_view_fetching_attachment_toast">در حال گرفتن ضمیمه.</string>
+    <string name="message_view_fetching_attachment_toast">در حال دریافت ضمیمه</string>
     <!-- Appears progress dialog for fetching attachment -->
-    <string name="message_view_fetching_attachment_progress">در حال گرفتن ضمیمه، به نام<xliff:g id="filename">%s</xliff:g></string>
+    <string name="message_view_fetching_attachment_progress">دریافت ضمیمهٔ <xliff:g id="filename">%s</xliff:g></string>
+    <!-- Calendar invitation, link to calendar.
+         Preserve the chevron (unicode &#xbb;) untranslated -->
+    <string name="message_view_invite_view">مشاهده در تقویم &#xbb;</string>
+    <!-- String shown with a calendar invitation. -->
+    <string name="message_view_invite_title">دعوت‌نامه</string>
+    <!-- String shown with a calendar invitation. -->
+    <string name="message_view_invite_text">شرکت می‌کنید؟</string>
+    <!-- Button text: Calendar invitation: Accept. The leading space is used for spacing -->
+    <string name="message_view_invite_accept">‏بله</string>
+    <!-- Button text: Calendar invitation: Maybe. The leading space is used for spacing -->
+    <string name="message_view_invite_maybe">‏شاید</string>
+    <!-- Button text: Calendar invitation: Decline. The leading space is used for spacing -->
+    <string name="message_view_invite_decline">‏خیر</string>
+    <!-- Toast shown following a meeting invite reply, accepted -->
+    <string name="message_view_invite_toast_yes">این دعوت را پذیرفتید.</string>
+    <!-- Toast shown following a meeting invite reply, maybe -->
+    <string name="message_view_invite_toast_maybe">پاسخ شما به این دعوت «شاید» بود.</string>
+    <!-- Toast shown following a meeting invite reply, declined -->
+    <string name="message_view_invite_toast_no">این دعوت را رد کردید.</string>
     <!-- Toast shown briefly while deleting a message -->
-    <string name="message_deleted_toast">پیغام حذف شد.</string>
+    <plurals name="message_deleted_toast">
+        <item quantity="one">نامه حذف شد.</item>
+        <item quantity="other">نامه‌ها حذف شد.</item>
+    </plurals>
     <!-- Toast shown briefly while deleting an unsent (draft) message -->
-    <string name="message_discarded_toast">پیغام دور ریخته شد.</string>
+    <string name="message_discarded_toast">نامه دور انداخته شد.</string>
     <!-- Toast shown briefly while saving a draft -->
-    <string name="message_saved_toast">پیغام به عنوان پیش‌نویس ذخیره شد.</string>
-    <!-- Dialog title when prompting before creating a contact from incoming email -->
-    <string name="add_contact_dlg_title">افزودن آشنا</string>
-    <!-- Dialog message when prompting before creating a contact from incoming email.  Includes
-         the email address, e.g. "Add xyz@foo.com to contacts" -->
-    <string name="add_contact_dlg_message_fmt">افزودن \"<xliff:g id="email">%s</xliff:g>\" به آشنایان
-        </string>
+    <string name="message_saved_toast">نامه به عنوان چرک‌نویس ذخیره شد.</string>
     <!-- String that is displayed when the attachment could not be displayed. -->
     <string name="message_view_display_attachment_toast">این ضمیمه را نمی‌توان نمایش داد.</string>
 
     <!-- Title of screen when setting up new email account -->
     <string name="account_setup_basics_title">راه‌اندازی پست الکترونیکی</string>
+    <!-- Title of the screen when adding exchange account -->
+    <string name="account_setup_basics_exchange_title">افزودن حساب Exchange</string>
+    <!-- Title of the screen when adding exchange account -->
+    <string name="account_setup_basics_exchange_title_alternate">افزودن حساب Exchange ActiveSync</string>
     <!-- On "Set up email" screen, enthusiastic welcome message. -->
-    <string name="accounts_welcome">شما می‌توانید فقط در چندین گام کوتاه، بیشتر حساب‌های پست الکترونیکی را پیکربندی کنید.
-        </string>
+    <string name="accounts_welcome">به راحتی می‌توانید پست الکترونیکی بیشتر حساب‌های خود را راه‌اندازی کنید.</string>
     <!-- On "Set up email" screen, enthusiastic welcome message (in EAS mode). -->
-    <string name="accounts_welcome_exchange">شما می‌توانید فقط در چندین گام کوتاه، یک حساب Exchange پیکربندی کنید.</string>
-    <!-- On "Set up email" screen, brief instructions -->
-    <!--  DEPRECATED - REMOVE -->
-    <string name="account_setup_basics_instructions"></string>
+    <string name="accounts_welcome_exchange">به راحتی می‌توانید پست الکترونیکی بیشتر حساب‌های Exchange خود را راه‌اندازی کنید.</string>
+    <!-- On "Set up email" screen, enthusiastic welcome message (in EAS mode). -->
+    <string name="accounts_welcome_exchange_alternate">به راحتی می‌توانید پست الکترونیکی بیشتر حساب‌های Exchange ActiveSync خود را راه‌اندازی کنید.</string>
     <!-- On "Set up email" screen, hint for account email address text field -->
-    <string name="account_setup_basics_email_hint">نشانی پست الکترونیکی</string>
+    <string name="account_setup_basics_email_hint">آدرس پست الکترونیکی</string>
     <!-- On "Set up email" screen, hint for account email password text field -->
     <string name="account_setup_basics_password_hint">گذرواژه</string>
     <!-- On "Set up email" screen, checkbox label for making this the new account be the default account -->
-    <string name="account_setup_basics_default_label">به صورت پیش‌فرض، پست‌های الکترونیکی را از این حساب ارسال کن.</string>
+    <string name="account_setup_basics_default_label">حساب پیش‌فرض برای ارسال نامه‌ها</string>
     <!-- Button name on "Set up email" screen -->
-    <string name="account_setup_basics_manual_setup_action">راه‌اندازی دستی</string>
+    <string name="account_setup_basics_manual_setup_action">تنظیمات دستی</string>
     <!-- Toast when we can't build a URI from the given email & password -->
     <!-- Note, the error message in the toast is purposefully vague, because I *don't* know exactly what's wrong. -->
-    <string name="account_setup_username_password_toast">لطفا یک نشانی پست الکترونیکی و گذرواژهٔ معتبر وارد کنید.</string>
+    <string name="account_setup_username_password_toast">آدرس پست الکترونیکی و گذرواژهٔ معتبری را وارد نمایید.</string>
     <!-- Title of dialog shown when a duplicate account is created -->
-    <string name="account_duplicate_dlg_title">تکثیر حساب</string>
+    <string name="account_duplicate_dlg_title">حساب تکراری</string>
     <!-- Message of dialog shown when a duplicate account is created.  The display name of
          the duplicate account is displayed. -->
-    <string name="account_duplicate_dlg_message_fmt">
-        در حال حاضر این نام برای حساب \"<xliff:g id="duplicate">%s</xliff:g>\" در حال استفاده است.
-    </string>
+    <string name="account_duplicate_dlg_message_fmt">این نام کاربری در حال حاضر برای حساب «<xliff:g id="duplicate">%s</xliff:g>» استفاده می‌شود.</string>
+
+    <!-- Do Not Translate.  Activity Title for check-settings screen -->
+    <string name="account_setup_check_settings_title"></string>
     <!-- On check-settings screen, this is the initially-displayed message. -->
-    <string name="account_setup_check_settings_retr_info_msg">در حال دریافت اطلاعات حساب\u2026</string>
+    <string name="account_setup_check_settings_retr_info_msg">در حال بازیابی اطلاعات حساب\u2026</string>
     <!-- Appears on screen while system is checking incoming server settings -->
-    <string name="account_setup_check_settings_check_incoming_msg">در حال بررسی تنظیمات ورودی از کارگزار\u2026</string>
+    <string name="account_setup_check_settings_check_incoming_msg">در حال بررسی تنظیمات سرور دریافت نامه\u2026</string>
     <!-- Appears on screen while system is checking outgoing server settings -->
-    <string name="account_setup_check_settings_check_outgoing_msg">در حال بررسی تنظیمات خروجی از کارگزار\u2026</string>
+    <string name="account_setup_check_settings_check_outgoing_msg">در حال بررسی تنظیمات سرور ارسال نامه\u2026</string>
     <!-- On check-settings screen, displayed briefly when user cancels the operation. -->
-    <string name="account_setup_check_settings_canceling_msg">در حال لغو \u2026</string>
+    <string name="account_setup_check_settings_canceling_msg">در حال لغو\u2026</string>
     <!-- Title of "Set up email" screen after success -->
     <string name="account_setup_names_title">راه‌اندازی پست الکترونیکی</string>
     <!-- Text that appears on top of "Set up email" screen after successfully setting up an account -->
-    <string name="account_setup_names_instructions">حساب شما راه‌اندازی شد و پست الکترونیکی شما در راه است!</string>
+    <string name="account_setup_names_instructions">حساب شما راه‌اندازی شد و نامهٔ شما در راه است!</string>
     <!-- On "Set up email" screen, label of text field -->
-    <string name="account_setup_names_account_name_label">برای این حساب، یک نام انتخاب کنید (اختیاری)</string>
+    <string name="account_setup_names_account_name_label">برای این حساب اسمی انتخاب کنید. (اختیاری)</string>
     <!-- On "Set up email" screen, label of text field -->
-    <string name="account_setup_names_user_name_label">نام شما (در پیغام‌های خروجی نمایش داده خواهد شد)</string>
+    <string name="account_setup_names_user_name_label">نام شما (برای نمایش در نامه‌های ارسالی)</string>
 
     <!-- Activity Title for the first screen in manual setup (where you select IMAP or POP3) -->
-    <string name="account_setup_account_type_title">افزودن حساب پست الکترونیکی جدید</string>
+    <string name="account_setup_account_type_title">افزودن حساب جدید</string>
     <!-- "Add new email account" screen, text that appears on screen -->
-    <string name="account_setup_account_type_instructions">این حساب از چه نوعی است؟</string>
-    <!-- "Add new email account" screen, button name in response to what type of account this is -->
-    <string name="account_setup_account_type_pop_action">حساب POP3</string>
-    <!-- "Add new email account" screen, button name in response to what type of account this is -->
-    <string name="account_setup_account_type_imap_action">حساب IMAP</string>
-    <!-- "Add new email account" screen, button name in response to what type of account this is -->
-    <string name="account_setup_account_type_exchange_action">حساب Exchange</string>
+    <string name="account_setup_account_type_instructions">نوع حساب را انتخاب کنید:</string>
+
+    <!-- Do Not Translate. "Add new email account" screen, button name in response to what
+         type of account this is -->
+    <string name="account_setup_account_type_pop_action">POP3</string>
+    <!-- Do Not Translate. "Add new email account" screen, button name in response to what
+         type of account this is -->
+    <string name="account_setup_account_type_imap_action">IMAP</string>
+    <!-- Do Not Translate. "Add new email account" screen, button name in response to what
+         type of account this is -->
+    <string name="account_setup_account_type_exchange_action">Exchange</string>
+    <!-- Do Not Translate. "Add new email account" screen, button name in
+         response to what type of account this is -->
+    <string name="account_setup_account_type_exchange_action_alternate">
+        Microsoft Exchange ActiveSync</string>
+
     <!-- "Incoming server settings" screen, label for text field -->
-    <string name="account_setup_incoming_title">تنظیمات ورودی کارگزار</string>
+    <string name="account_setup_incoming_title">تنظیمات سرور دریافت نامه</string>
     <!-- "Incoming server settings" screen, label for text field -->
-    <string name="account_setup_incoming_username_label">نام‌کارگزاری</string>
+    <string name="account_setup_incoming_username_label">نام کاربری</string>
     <!-- "Incoming server settings" screen, label for text field -->
     <string name="account_setup_incoming_password_label">گذرواژه</string>
     <!-- "Incoming server settings" screen, label for text field -->
-    <string name="account_setup_incoming_pop_server_label">کارگزار POP3</string>
+    <string name="account_setup_incoming_pop_server_label">سرور POP3</string>
     <!-- "Incoming server settings" screen, label for text field -->
-    <string name="account_setup_incoming_imap_server_label">کارگزار IMAP</string>
+    <string name="account_setup_incoming_imap_server_label">سرور IMAP</string>
     <!-- "Incoming server settings" screen, label for text field -->
-    <string name="account_setup_incoming_port_label">درگاه</string>
+    <string name="account_setup_incoming_port_label">پورت</string>
     <!-- "Incoming server settings" screen, label for pop-up menu -->
-    <string name="account_setup_incoming_security_label">نوع امنیت</string>
+    <string name="account_setup_incoming_security_label">روش امنیتی</string>
     <!-- "Incoming server settings" screen, options for "Security type" pop-up menu -->
     <string name="account_setup_incoming_security_none_label">هیچکدام</string>
     <!-- "Incoming server settings" screen, options for "Security type" pop-up menu -->
-    <string name="account_setup_incoming_security_ssl_trust_certificates_label">SSL (همهٔ گواهی‌ها قبول می‌شوند)</string>
+    <string name="account_setup_incoming_security_ssl_trust_certificates_label">SSL (پذیرفتن همهٔ گواهی‌های تأیید)</string>
     <!-- "Incoming server settings" screen, options for "Security type" pop-up menu -->
     <string name="account_setup_incoming_security_ssl_label">SSL</string>
     <!-- "Incoming server settings" screen, options for "Security type" pop-up menu -->
-    <string name="account_setup_incoming_security_tls_trust_certificates_label">TLS (همهٔ گواهی‌ها قبول می‌شوند)</string>
+    <string name="account_setup_incoming_security_tls_trust_certificates_label">TLS (پذیرفتن همهٔ گواهی‌های تأیید)</string>
     <!-- "Incoming server settings" screen, options for "Security type" pop-up menu -->
     <string name="account_setup_incoming_security_tls_label">TLS</string>
     <!-- "Incoming server settings" screen, label for pop-up menu -->
-    <string name="account_setup_incoming_delete_policy_label">حذف پست الکترونیکی از کارگزار</string>
+    <string name="account_setup_incoming_delete_policy_label">حذف پست الکترونیکی از سرور</string>
     <!-- "Incoming server settings" screen, options in pop-up menu for Delete email from server: -->
     <!-- "Incoming server settings" screen, options in pop-up menu for Delete email from server: -->
-    <string name="account_setup_incoming_delete_policy_never_label">هیچوقت</string>
+    <string name="account_setup_incoming_delete_policy_never_label">هرگز</string>
     <!-- "Incoming server settings" screen, options in pop-up menu for Delete email from server: -->
-    <string name="account_setup_incoming_delete_policy_delete_label">هنگام حذف از صندوق ورودی</string>
+    <string name="account_setup_incoming_delete_policy_delete_label">وقتی که از صندوق ورودی حذف می‌کنم.</string>
     
     <!-- "Incoming server settings" screen, label for setting IMAP path prefix: -->
-    <string name="account_setup_incoming_imap_path_prefix_label">پیشوند مسیر IMAP</string>
+    <string name="account_setup_incoming_imap_path_prefix_label">پیشوند مسیر در IMAP</string>
     <!-- "Incoming server settings" screen, hint for setting IMAP path prefix: -->
     <string name="account_setup_incoming_imap_path_prefix_hint">اختیاری</string>
     <!-- Title of "Outgoing server settings" screen -->
-    <string name="account_setup_outgoing_title">تنظیمات خروجی کارگزار</string>
+    <string name="account_setup_outgoing_title">تنظیمات سرور ارسال نامه</string>
     <!-- On "Outgoing server settings" screen, label for text field -->
-    <string name="account_setup_outgoing_smtp_server_label">کارگزار SMTP</string>
+    <string name="account_setup_outgoing_smtp_server_label">سرور SMTP</string>
     <!-- On "Outgoing server settings" screen, label for text field -->
-    <string name="account_setup_outgoing_port_label">درگاه</string>
+    <string name="account_setup_outgoing_port_label">پورت</string>
     <!-- On "Outgoing server settings" screen, label for pop-up menu -->
-    <string name="account_setup_outgoing_security_label">نوع امنیت</string>
+    <string name="account_setup_outgoing_security_label">روش امنیتی</string>
     <!-- On "Outgoing server settings" screen, label for check box -->
-    <string name="account_setup_outgoing_require_login_label">به ورود نیاز است.</string>
+    <string name="account_setup_outgoing_require_login_label">ورود به حساب ضروری است.</string>
     <!-- On "Outgoing server settings" screen, label for text field -->
-    <string name="account_setup_outgoing_username_label">نام‌کاربری</string>
+    <string name="account_setup_outgoing_username_label">نام کاربری</string>
     <!-- On "Outgoing server settings" screen, label for text field -->
     <string name="account_setup_outgoing_password_label">گذرواژه</string>
     
     <!-- Title of "Exchange server settings" screen -->
-    <string name="account_setup_exchange_title">تنظیمات کارگزار Exchange</string>
+    <string name="account_setup_exchange_title">تنظیمات سرور</string>
     <!-- On "Exchange" setup screen, the name of the server -->
-    <string name="account_setup_exchange_server_label">کارگزار Exchange</string>
+    <string name="account_setup_exchange_server_label">سرور</string>
     <!-- On "Exchange" setup screen, the domain\\username -->
-    <string name="account_setup_exchange_username_label">دامنه\\نام‌کاربری</string>
-    <!-- Deprecated: On "Exchange" setup screen, the domain name label -->
-    <string name="account_setup_exchange_domain_label">دامنه</string>
-    <!-- Deprecated: On "Exchange" setup screen, the domain name hint -->
-    <string name="account_setup_exchange_domain_hint">نام دامنه را اینجا وارد کنید</string>
+    <string name="account_setup_exchange_username_label">دامنه\\نام کاربری</string>
     <!-- On "Exchange" setup screen, the use-SSL checkbox label -->
-    <string name="account_setup_exchange_ssl_label">از اتصال امن (SSL) استفاده کن</string>
+    <string name="account_setup_exchange_ssl_label">استفاده از اتصال امن (SSL)</string>
     <!-- On "Exchange" setup screen, the trust ssl certificates checkbox label -->
-    <string name="account_setup_exchange_trust_certificates_label">همهٔ گواهی‌های SSL را قبول کن</string>
+    <string name="account_setup_exchange_trust_certificates_label">پذیرفتن گواهی‌های تأیید SSL</string>
 
     <!-- In Account setup options screen, Activity title -->
     <string name="account_setup_options_title">گزینه‌های حساب</string>
     <!-- In Account setup options screen, label for email check frequency selector -->
-    <string name="account_setup_options_mail_check_frequency_label">مدت‌زمان بررسی مجدد برای پست الکترونیکی</string>
+    <string name="account_setup_options_mail_check_frequency_label">دریافت نامه‌ها از سرور</string>
     <!-- In Account setup options & Account Settings screens, label for email check frequency option -->
-    <string name="account_setup_options_mail_check_frequency_never">هیچوقت</string>
+    <string name="account_setup_options_mail_check_frequency_never">دستی</string>
     <!-- In Account setup options & Account Settings screens, label for email check frequency option -->
-    <string name="account_setup_options_mail_check_frequency_push">خودکار (Push)</string>
+    <string name="account_setup_options_mail_check_frequency_push">خودکار (پوش)</string>
     <!-- In Account setup options & Account Settings screens, email check frequency option -->
     <string name="account_setup_options_mail_check_frequency_5min">هر ۵ دقیقه</string>
     <!-- In Account setup options & Account Settings screens, email check frequency option -->
@@ -391,131 +452,228 @@
     <!-- In Account setup options & Account Settings screens, email check frequency option -->
     <string name="account_setup_options_mail_check_frequency_30min">هر ۳۰ دقیقه</string>
     <!-- In Account setup options & Account Settings screens, email check frequency option -->
-    <string name="account_setup_options_mail_check_frequency_1hour">هر ساعت</string>
+    <string name="account_setup_options_mail_check_frequency_1hour">هر ۱ ساعت</string>
     <!-- Check box label on "Set up email" screen to make this the default account -->
     <!-- Note, this should usually match the default account summary preference string -->
-    <string name="account_setup_options_default_label">پست‌های الکترونیکی را به صورت پیش‌فرض از این نشانی ارسال کن.</string>
+    <string name="account_setup_options_default_label">حساب اصلی برای ارسال نامه‌ها</string>
     <!-- In Account setup options & Account Settings screens, check box for new-mail notification -->
-    <string name="account_setup_options_notify_label">هنگام رسیدن یک پست الکترونیکی مرا مطلع کن.</string>
+    <string name="account_setup_options_notify_label">در صورت دریافت نامهٔ جدید به من خبر داده شود.</string>
     <!-- In Account setup options screen, optional check box to also sync contacts -->
-    <string name="account_setup_options_sync_contacts_label">آشنایان را از این حساب هنگام کن.</string>
+    <string name="account_setup_options_sync_contacts_label">هماهنگ‌سازی آشنایان از این حساب</string>
+    <!-- In Account setup options screen, optional check box to also sync contacts -->
+    <string name="account_setup_options_sync_calendar_label">هماهنگ‌سازی تقویم از این حساب</string>
     <!-- Dialog title when "setup" could not finish -->
-    <string name="account_setup_failed_dlg_title">راه‌اندازی را نمی‌توان به اتمام رساند</string>
+    <string name="account_setup_failed_dlg_title">راه‌اندازی موفقیت‌آمیز نبود.</string>
     <!-- In Account setup options screen, label for email check frequency selector -->
-    <string name="account_setup_options_mail_window_label">مدت‌زمان برای همگام‌سازی مجدد</string>
+    <string name="account_setup_options_mail_window_label">بازهٔ هماهنگ‌سازی</string>
     <!-- In account setup options & account settings screens (exchange), sync window length  -->
-    <string name="account_setup_options_mail_window_1day">یک روز</string>
+    <string name="account_setup_options_mail_window_1day">‏۱ روز اخیر</string>
     <!-- In account setup options & account settings screens (exchange), sync window length  -->
-    <string name="account_setup_options_mail_window_3days">سه روز</string>
+    <string name="account_setup_options_mail_window_3days">‏۳ روز اخیر</string>
     <!-- In account setup options & account settings screens (exchange), sync window length  -->
-    <string name="account_setup_options_mail_window_1week">یک هفته</string>
+    <string name="account_setup_options_mail_window_1week">‏۱ هفتهٔ اخیر</string>
     <!-- In account setup options & account settings screens (exchange), sync window length  -->
-    <string name="account_setup_options_mail_window_2weeks">دو هفته</string>
+    <string name="account_setup_options_mail_window_2weeks">‏۲ هفتهٔ اخیر</string>
     <!-- In account setup options & account settings screens (exchange), sync window length  -->
-    <string name="account_setup_options_mail_window_1month">یک ماه</string>
-    <!-- In account setup options & account settings screens (exchange), sync window length  -->
-    <string name="account_setup_options_mail_window_all">همهٔ پست‌های الکترونیکی</string>
+    <string name="account_setup_options_mail_window_1month">‏۱ ماه اخیر</string>
 
     <!-- "Setup could not finish" dialog text; e.g., Username or password incorrect -->
-    <string name="account_setup_failed_dlg_auth_message">نام‌کاربری یا گذرواژه نادرست است.</string> 
+    <string name="account_setup_failed_dlg_auth_message">نام کاربری یا گذرواژه صحیح نمی‌باشد.</string> 
     <!-- "Setup could not finish" dialog text; e.g., Username or password incorrect\n(ERR01 Account does not exist) -->
-    <string name="account_setup_failed_dlg_auth_message_fmt">نام‌کاربری یا گذرواژه نادرست است.\n(<xliff:g id="error">%s</xliff:g>)</string> 
+    <string name="account_setup_failed_dlg_auth_message_fmt">نام کاربری یا گذرواژه صحیح نمی‌باشد.\n(<xliff:g id="error">%Ls</xliff:g>)</string> 
 
     <!-- "Setup could not finish" dialog text; e.g., Cannot safely connect to server -->
-    <string name="account_setup_failed_dlg_certificate_message">نمی‌توان به صورت امن به کارگزار متصل شد.</string> 
+    <string name="account_setup_failed_dlg_certificate_message">اتصال امن به سرور ممکن نیست.</string> 
     <!-- "Setup could not finish" dialog text; e.g., Cannot safely connect to server\n(TLS Not Supported) -->
-    <string name="account_setup_failed_dlg_certificate_message_fmt">نمی‌توان به صورت امن به کارگزار متصل شد.\n(<xliff:g id="error">%s</xliff:g>)</string> 
+    <string name="account_setup_failed_dlg_certificate_message_fmt">اتصال امن به سرور ممکن نیست.\n(<xliff:g id="error">%Ls</xliff:g>)</string>
 
     <!-- "Setup could not finish" dialog text; e.g., Cannot connect to server -->
-    <string name="account_setup_failed_dlg_server_message">به کارگزار نمی‌توان متصل شد.</string> 
+    <string name="account_setup_failed_dlg_server_message">اتصال به سرور امکان‌پذیر نمی‌باشد.</string> 
     <!-- "Setup could not finish" dialog text; e.g., Cannot connect to server\n(Connection timed out) -->
-    <string name="account_setup_failed_dlg_server_message_fmt">نمی‌توان به کارگزار متصل شد.\n(<xliff:g id="error">%s</xliff:g>)</string> 
+    <string name="account_setup_failed_dlg_server_message_fmt">اتصال به سرور امکان‌پذیر نمی‌باشد.\n(<xliff:g id="error">%Ls</xliff:g>)</string> 
 
     <!-- Additional diagnostic text when TLS was required but the server doesn't support it -->
-    <string name="account_setup_failed_tls_required">TLS موردنیاز است ولی توسط کارگزار پشتیبانی نمی‌شود.</string>
+    <string name="account_setup_failed_tls_required">‏TLS لازم است، اما توسط سرور پشتیبانی نمی‌شود.</string>
     <!-- Additional diagnostic text when server does not support any of our authentication methods -->
-    <string name="account_setup_failed_auth_required">روش‌های تایید هویت توسط کارگزار پشتیبانی نمی‌شود.</string>
+    <string name="account_setup_failed_auth_required">روش‌های تأیید هویت توسط سرور پشتیبانی نمی‌شود.</string>
     <!-- Additional diagnostic text when server connection failed due to security error -->
-    <string name="account_setup_failed_security">به دلایل امنیتی، نمی‌توان به کارگزار متصل شد.</string>
+    <string name="account_setup_failed_security">به دلیل خطای امنیتی، امکان برقراری ارتباط با سرور وجود ندارد.</string>
     <!-- Additional diagnostic text when server connection failed due to io error (connection) -->
-    <string name="account_setup_failed_ioerror">نمی‌توان به کارگزار متصل شد.</string>
+    <string name="account_setup_failed_ioerror">امکان برقراری ارتباط با سرور وجود ندارد.</string>
+
+    <!-- Dialog title when validation requires security provisioning (e.g. support
+         for device lock PIN, or remote wipe.) and we ask the user permission before continuing -->
+    <string name="account_setup_security_required_title">مدیریت امنیت گوشی از راه دور</string>
+    <!-- Additional diagnostic text when validation requires security provisioning (e.g. support
+         for device lock PIN, or remote wipe.) and we ask the user permission before continuing. -->
+    <string name="account_setup_security_policies_required_fmt">
+         برای اتمام راه‌اندازی این حساب، سرور <xliff:g id="server">%Ls</xliff:g> نیاز به اجازهٔ شما برای کنترل بعضی از ویژگی‌های گوشی دارد. موافقید؟
+         </string>
+    <!-- Additional diagnostic text when validation failed due to required provisioning not
+         being supported -->
+    <string name="account_setup_failed_security_policies_unsupported">امکانات امنیتی مورد نیاز این سرور توسط گوشی شما پشتیبانی نمی‌شود.</string>
+
+    <!-- Notification ticker  when device security required -->
+    <string name="security_notification_ticker_fmt">تنظیمات امنیتی حساب «<xliff:g id="account">%Ls</xliff:g>» باید به‌روز شود.
+    </string>
+    <!-- Notification content title when device security required -->
+<string name="security_notification_content_title">به‌روزرسانی تنظیمات امنیتی</string>
+    <!-- Title of the activity that dispatches changes to device security.  Not normally seen. -->
+    <string name="account_security_title">امنیت گوشی</string>
+    <!-- Additional diagnostic text when the email app asserts control of the phone. -->
+    <string name="account_security_policy_explanation_fmt">سرور <xliff:g id="server">%Ls</xliff:g> نیاز به اجازهٔ شما برای کنترل از راه دور بعضی از ویژگی‌های امنیتی گوشی شما نیاز دارد.</string>
 
     <!-- "Setup could not finish" dialog action button -->
     <string name="account_setup_failed_dlg_edit_details_action">ویرایش جزئیات</string>
     <!-- On Settings screen, section heading -->
     <string name="account_settings_title_fmt">تنظیمات عمومی</string>
     <!-- On Settings screen, setting option name -->
-    <string name="account_settings_default_label">حساب پیش‌فرض</string>
+    <string name="account_settings_default_label">حساب اصلی</string>
     <!-- Check box "summary" label on "Account options" screen to make this the default account -->
     <!-- Note, this should usually match the default account account setup checkbox string -->
-    <string name="account_settings_default_summary">به صورت پیش‌فرض پست‌های الکترونیکی را بوسیلهٔ این حساب ارسال کن</string>
+    <string name="account_settings_default_summary">حساب اصلی برای ارسال نامه</string>
     <!-- On Settings screen, setting option name -->
-    <string name="account_settings_notify_label">اطلاع‌های پست‌الکرتونیکی</string>
+    <string name="account_settings_notify_label">خبر‌های نامه</string>
     <!-- On Settings screen, summary line when called via AccountManager for Exchange accounts -->
-    <string name="account_settings_exchange_summary">مدت‌زمان هنگام‌سازی مجدد، اطلاع‌ها و غیره.</string>
+    <string name="account_settings_exchange_summary">تنظیمات هماهنگ‌سازی، خبرها و غیره.</string>
     <!-- On Settings screen, setting summary text -->
-    <string name="account_settings_notify_summary">هنگام رسیدن پست الکترونیکی، مرا در نوار وضعیت مطلع کن</string>
+    <string name="account_settings_notify_summary">در صورت دریافت نامهٔ جدید، در قسمت نوار وضعیت خبر داده شود.</string>
     <!-- On Settings screen, setting option name and title of dialog box that opens -->
-    <string name="account_settings_mail_check_frequency_label">مدت‌زمان بررسی مجدد برای پست الکترونیکی</string>
+    <string name="account_settings_mail_check_frequency_label">دریافت نامه از سرور</string>
     <!-- On Settings screen, setting option name -->
-    <string name="account_settings_incoming_label">تنظیمات ورودی</string>
+    <string name="account_settings_incoming_label">تنظیمات دریافت</string>
     <!-- On Settings screen, setting option name -->
-    <string name="account_settings_outgoing_label">تنظیمات خروجی</string>
-    <!-- On Settings screen, setting option name -->
-    <string name="account_settings_add_account_label">افزودن حساب دیگر</string>
+    <string name="account_settings_outgoing_label">تنظیمات ارسال</string>
     <!-- On Settings screen, setting option name -->
     <string name="account_settings_description_label">نام حساب</string>
     <!-- On Settings screen, setting option name -->
     <string name="account_settings_name_label">نام شما</string>
+    <!-- On Settings screen, setting option name -->
+    <string name="account_settings_signature_label">امضا</string>
+    <!-- On Settings screen, setting option name -->
+    <string name="account_settings_signature_hint">افزودن متن به انتهای نامه‌های ارسالی</string>
     <!-- On Settings screen, section heading -->
-    <string name="account_settings_notifications">تنظیمات اطلاع‌ها</string>
+    <string name="account_settings_notifications">تنظیمات خبر</string>
 
     <!-- On settings screen, sync contacts check box label -->
-    <string name="account_settings_sync_contacts_enable">همگام‌سازی آشنایان</string>
+    <string name="account_settings_sync_contacts_enable">هماهنگ‌سازی آشنایان</string>
     <!-- On settings screen, sync contacts summary text -->
-    <string name="account_settings_sync_contacts_summary">آشنایان را توسط این حساب نیز همگام کن</string>
+    <string name="account_settings_sync_contacts_summary">آشنایان هم با همین حساب هماهنگ شوند.</string>
+    <!-- On settings screen, sync calendar check box label -->
+        <string name="account_settings_sync_calendar_enable">هماهنگ‌سازی تقویم</string>
+    <!-- On settings screen, sync calendar summary text -->
+    <string name="account_settings_sync_calendar_summary">تقویم هم با همین حساب هماهنگ شود.</string>
 
-    <!-- On Settings screen, setting option name -->
-    <string name="account_settings_ringtone">انتخاب صدای زنگ</string>
-    <!-- On Settings screen, section heading -->
-    <string name="account_settings_servers">تنظیمات کارگزار</string>
-    <!-- Title of Remove account confirmation dialog box -->
-    <string name="account_delete_dlg_title">حذف حساب</string>
-    <!-- Message of Remove account confirmation dialog box -->
-    <string name="account_delete_dlg_instructions_fmt">حساب \"<xliff:g id="account">%s</xliff:g>\" از پست الکترونیکی حذف خواهد شد.</string>
-
-    <!-- Message that appears when user adds a Yahoo mail account. This alert has no title. -->
-    <string name="provider_note_yahoo"> دسترسی به صندوق پست‌های الکترونیکی برای بعضی از انواع حساب‌های یاهو پشتیبانی نمی‌شود.
-اگر مشکلی در اتصال دارید، برای اطلاعات بیشتر به yahoo.com مراجعه کنید.</string>
-    <!-- Message that appears when user adds a Yahoo UK mail account. -->
-    <string name="provider_note_yahoo_uk">قبل از راه‌اندازی این حساب پست الکترونیکی، لطفا به وب‌گاه یاهو سر بزنید و دسترسی POP3 پست الکترونیکی برای این حساب را فعال کنید.</string>
-    <!-- Message that appears when adding a Windows Live Hotmail Plus account -->
-    <string name="provider_note_live">فقط بعضی از حساب‌های \"Plus\" شامل دسترسی POP هستند که به این برنامه، اجازهٔ اتصال می‌دهد. اگر با نشانی پست الکترونیکی و گذرواژهٔ خود نمی‌توانید وارد شوید، احتما یک حساب \"Plus\" ندارید. برای به‌دست آوردن دسترسی به این حساب‌های پست الکترونیکی یک مرورگر وب باز کنید.</string>
-    <!-- Message that appears when adding a T-Online account -->
-    <string name="provider_note_t_online">قبل از راه‌اندازی این حساب پست الکترونیکی، لطفا به وب‌گاه T-Online سر بزنید و یک گذرواژه برای دسترسی POP3 پست الکترونیکی ایجاد کنید.</string>
-
-    <!-- Name of Microsoft Exchange account type; used by AccountManager -->
-    <string name="exchange_name">شرکتی</string>
-    <string name="account_setup_failed_security_policies_required">این کارگزار Exchange ActiveSynd نیازمند امکانات امنیتی است که گوشی شما از آنها پشتیبانی نمی‌کند.</string>
-
-	<!-- Message that appears if the AccountManager cannot create the system Account -->
-	<string name="system_account_create_failed">مدیر حساب‌ها نمی‌تواند حساب ایجاد کند؛ لطفا مجددا امتحان کنید.</string>
-	<!-- Added by Behdad -->
-	<!-- On Settings screen, setting option name -->
-	<string name="account_settings_signature_label">امضا</string>
-	<!-- On Settings screen, setting option name -->
-	<string name="account_settings_signature_hint">متنی را برای افزودن به پیام‌هایتان اضافه کنید</string>
     <!-- On Settings screen, vibrate pop-up menu label -->
     <string name="account_settings_vibrate_when_label">لرزش</string>
     <!-- On Settings screen, vibrate pop-up menu summary text -->
-    <string name="account_settings_vibrate_when_summary">همچنین هنگام رسیدن پست‌الکترونیکی بلرز</string>
+    <string name="account_settings_vibrate_when_summary">لرزش، در صورت دریافت نامهٔ جدید</string>
     <!-- On Settings screen, vibrate pop-up menu option "always" text -->
     <string name="account_settings_vibrate_when_always">همیشه</string>
     <!-- On Settings screen, vibrate pop-up menu option "silent" text -->
-    <string name="account_settings_vibrate_when_silent">فقط در حالت بی‌صدا</string>
+    <string name="account_settings_vibrate_when_silent">تنها در حالت بی‌صدا</string>
     <!-- On Settings screen, vibrate pop-up menu option "never" text -->
-    <string name="account_settings_vibrate_when_never">هیچوقت</string>
+    <string name="account_settings_vibrate_when_never">هرگز</string>
 
     <!-- Dialog title for the Vibrate dialog -->
     <string name="account_settings_vibrate_when_dlg_title">لرزش</string>
+
+    <!-- On Settings screen, setting option name -->
+    <string name="account_settings_ringtone">انتخاب زنگ</string>
+    <!-- On Settings screen, section heading -->
+    <string name="account_settings_servers">تنظیمات سرور</string>
+    <!-- Title of Remove account confirmation dialog box -->
+    <string name="account_delete_dlg_title">حذف حساب</string>
+    <!-- Message of Remove account confirmation dialog box -->
+    <string name="account_delete_dlg_instructions_fmt">حساب «<xliff:g id="account">%Ls</xliff:g>» از پست الکترونیکی شما حذف خواهد شد.</string>
+
+    <!-- Title of Upgrade Accounts activity -->
+    <string name="upgrade_accounts_title">ارتقاء حساب‌ها</string>
+    <string name="upgrade_accounts_error">ارتقاء حساب‌ها ممکن نیست.</string>
+
+    <!-- Message that appears when user adds a Yahoo mail account. This alert has no title. -->
+    <string name="provider_note_yahoo">بعضی از انواع حساب‌های یاهو! دسترسی به صندوق نامه را پشتیبانی نمی‌کنند. اگر در اتصال مشکلی دارید، برای کسب اطلاعات بیشتر به yahoo.com مراجعه کنید.</string>
+    <!-- Message that appears when user adds a Yahoo UK mail account. -->
+    <string name="provider_note_yahoo_uk">قبل از راه‌اندازی این حساب، با مراجعه به وب‌گاه یاهو! دسترسی POP3 برای این حساب را فعال کنید.</string>
+    <!-- Message that appears when adding a Windows Live Hotmail Plus account -->
+    <string name="provider_note_live">فقط بعضی از حساب‌های «Plus» شامل دسترسی POP هستند و به این برنامه اجازهٔ اتصال می‌دهند. اگر با آدرس پست الکترونیکی و گذرواژهٔ کنونی خود نمی‌توانید وارد شوید، به نظر می‌رسد حساب «plus» ندارید. برای استفاده از این حساب‌ها باید از مرورگر استفاده کنید.</string>
+    <!-- Message that appears when adding a T-Online account -->
+    <string name="provider_note_t_online">قبل از راه‌اندازی این حساب، با مراجعه به وب‌گاه T-Online برای دسترسی POP3 پست الکترونیکی خود، گذرواژه ایجاد کنید.</string>
+
+    <!-- Name of Microsoft Exchange account type; used by AccountManager -->
+    <string name="exchange_name">شرکتی</string>
+    <!-- Name of Microsoft Exchange account type; used by AccountManager -->
+    <string name="exchange_name_alternate">Microsoft Exchange ActiveSync</string>
+
+    <!-- Message subject for meeting accepted response.  This will be followed by a colon
+         and the title of the meeting (i.e. the title of the meeting becomes part of the subject of
+         the message that's sent) -->
+    <string name="meeting_accepted">پذیرفته شده: <xliff:g id="subject">%Ls</xliff:g></string>
+    <!-- Message subject for meeting declined response. This is followed by a colon
+         and the title of the meeting (i.e. the title of the meeting becomes part of the subject of
+         the message that's sent) -->
+    <string name="meeting_declined">رد شده: <xliff:g id="subject">%Ls</xliff:g></string>
+    <!-- Message subject for meeting tentative response.  This is followed by a colon
+         and the title of the meeting (i.e. the title of the meeting becomes part of the subject of
+         the message that's sent) -->
+    <string name="meeting_tentative">مردد: <xliff:g id="subject">%Ls</xliff:g></string>
+    <!-- Message subject for a canceled meeting email.  This is followed by a colon
+         and the title of the meeting (i.e. the title of the meeting becomes part of the subject of
+         the message that's sent) -->
+    <string name="meeting_canceled">لغو شده: <xliff:g id="subject">%Ls</xliff:g></string>
+    <!-- Message subject for an updated meeting email.  This is followed by a colon
+         and the title of the meeting (i.e. the title of the meeting becomes part of the subject of
+         the message that's sent) -->
+    <string name="meeting_updated">به‌روز‌شده: <xliff:g id="subject">%Ls</xliff:g></string>
+
+    <!-- Indicate when a meeting takes place.  This is presented in in bullet form, as
+         in, "When: xxx" followed by "Where: xxx" -->
+    <string name="meeting_when">زمان: <xliff:g id="when">%Ls</xliff:g></string>
+    <!--  Indicate where a meeting takes place.  This is presented in in bullet form, as
+         in, "When: xxx" followed by "Where: xxx" -->
+    <string name="meeting_where">مکان: <xliff:g id="where">%Ls</xliff:g></string>
+    <!--  Indicate that a meeting is recurring.  This would normally be presented after
+         "When: xxx", e.g. "When: Tue, Mar 10, 2010 at 2:30pm (recurring)" -->
+    <string name="meeting_recurring">زمان: <xliff:g id="eventdate"
+         example="Tue, Mar 10, 2010 at 2:30 pm">%Ls</xliff:g> (تکرارشونده)</string>
+
+    <!-- Used as the body text of a message reporting to an attendee that a specific instance
+         of a recurring meeting has been canceled -->
+    <string name="exception_cancel">این رویداد، <xliff:g id="date">%s</xliff:g> تکرار نخواهد شد.</string>
+    <!-- Used as the body text of a message reporting to an attendee that a specific instance
+         of a recurring meeting has been changed -->
+    <string name="exception_updated">جزئیات این رویداد برای <xliff:g id="date">%s</xliff:g> تغییر کرد.</string>
+
+	<!-- Message that appears if the AccountManager cannot create the system Account -->
+	<string name="system_account_create_failed">ساختن حساب در حال حاضر ممکن نیست. بعداً امتحان کنید.</string>
+
+    <!-- Strings that support the DeviceAdmin / DevicePolicyManager API -->
+    <!-- Name of the DeviceAdmin (seen in settings & in user confirmation screen) -->
+    <string name="device_admin_label">پست الکترونیکی</string>
+    <!-- Long-form description of the DeviceAdmin (2nd line in settings & in user conf. screen) -->
+    <string name="device_admin_description">سیاست‌های امنیتی تعیین‌شده توسط سرور را فعال می‌کند.</string>
+
+    <!-- Notification message in notifications window when calendar sync is
+         automatically enabled for pre-existing Exchange accounts on upgrade -->
+    <string name="notification_exchange_calendar_added">تقویم Exchange اضافه شد.</string>
+
+    <!-- Strings used for GAL access -->
+
+    <!-- Displayed in small separator in to/cc/bcc dropdowns, when searching GAL begins.
+         Example:  "Searching bigcompany.com..." -->
+    <string name="gal_searching_fmt">جستجو در <xliff:g id="domain">%Ls</xliff:g>\u2026</string>
+    <!-- Displayed in small separator in to/cc/bcc dropdowns, when searching GAL completes,
+         and all of the server results are being displayed.  Example:
+         "5 results from bigcompany.com..."  -->
+    <plurals name="gal_completed_fmt">
+        <!-- Case of one result from server. -->
+        <item quantity="one"><xliff:g id="results" example="1">%1$Ld</xliff:g> نتیجه از <xliff:g id="domain">%2$Ls</xliff:g></item>
+
+        <!-- Case of multiple results from server -->
+        <item quantity="other"><xliff:g id="results" example="20">‏%1$d</xliff:g> نتیجه از <xliff:g id="domain">%2$s</xliff:g></item>
+    </plurals>
+    <!-- Displayed in small separator in to/cc/bcc dropdowns, when searching GAL completes,
+         and a limited amount (not all) of the server results are being displayed.  This is
+         always a larger value because it represents the limit of displayed results.  -->
+    <string name="gal_completed_limited_fmt">‏<xliff:g id="results" example="20">%1$Ld</xliff:g> نتیجهٔ اول از <xliff:g id="domain">%2$Ls</xliff:g></string>
 </resources>
