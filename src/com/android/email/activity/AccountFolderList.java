@@ -50,6 +50,7 @@ import android.net.Uri;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.os.Handler;
+import android.text.format.Jalali;
 import android.view.ContextMenu;
 import android.view.KeyEvent;
 import android.view.LayoutInflater;
@@ -795,11 +796,11 @@ public class AccountFolderList extends ListActivity implements OnItemClickListen
                         || id == Mailbox.QUERY_ALL_OUTBOX) {
                     unreadCountView.setVisibility(View.GONE);
                     allCountView.setVisibility(View.VISIBLE);
-                    allCountView.setText(text);
+                    allCountView.setText(Jalali.persianDigitsIfPersian(text));
                 } else {
                     allCountView.setVisibility(View.GONE);
                     unreadCountView.setVisibility(View.VISIBLE);
-                    unreadCountView.setText(text);
+                    unreadCountView.setText(Jalali.persianDigitsIfPersian(text));
                 }
             } else {
                 allCountView.setVisibility(View.GONE);
@@ -859,7 +860,7 @@ public class AccountFolderList extends ListActivity implements OnItemClickListen
             view.findViewById(R.id.all_message_count).setVisibility(View.GONE);
             TextView unreadCountView = (TextView) view.findViewById(R.id.new_message_count);
             if (unreadMessageCount > 0) {
-                unreadCountView.setText(String.valueOf(unreadMessageCount));
+                unreadCountView.setText(Jalali.persianDigitsIfPersian(String.valueOf(unreadMessageCount)));
                 unreadCountView.setVisibility(View.VISIBLE);
             } else {
                 unreadCountView.setVisibility(View.GONE);
