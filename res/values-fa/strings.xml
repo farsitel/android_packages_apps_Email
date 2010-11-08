@@ -61,7 +61,7 @@
     <!-- Name of application on Home screen -->
     <string name="app_name">پست الکترونیکی</string>
     <!-- Title of compose screen -->
-    <string name="compose_title">ساختن</string>
+    <string name="compose_title">نوشتن</string>
     <!-- Title of debug screen -->
     <string name="debug_title">باگ‌گیری</string>
 
@@ -89,7 +89,7 @@
     <!-- Menu item/button name -->
     <string name="discard_action">دورانداختن</string>
     <!-- Menu item/button name -->
-    <string name="save_draft_action">ذخیره به شکل چرک‌نویس</string>
+    <string name="save_draft_action">چرک‌نویس</string>
     <!-- Menu item/button name -->
     <string name="read_unread_action">خوانده‌شده/خوانده‌نشده</string>
     <!-- Menu item/button name -->
@@ -109,7 +109,7 @@
     <!-- Menu item -->
     <string name="deselect_all_action">انتخاب هیچ کدام</string>
     <!-- Menu item -->
-    <string name="compose_action">ساختن</string>
+    <string name="compose_action">نوشتن</string>
     <!-- Menu item/button name -->
     <string name="search_action">جستجو</string>
     <!-- Menu item/button name -->
