@@ -85,7 +85,7 @@
     <!-- Menu item/button name -->
     <string name="forward_action">فوروارد</string>
     <!--  Button name used to complete a multi-step process -->
-    <string name="done_action">اتمام</string>
+    <string name="done_action">تمام</string>
     <!-- Menu item/button name -->
     <string name="discard_action">دورانداختن</string>
     <!-- Menu item/button name -->
@@ -93,9 +93,9 @@
     <!-- Menu item/button name -->
     <string name="read_unread_action">خوانده‌شده/خوانده‌نشده</string>
     <!-- Menu item/button name -->
-    <string name="read_action">خوانده شد</string>
+    <string name="read_action">خوانده شد.</string>
     <!-- Menu item/button name -->
-    <string name="unread_action">خوانده نشد</string>
+    <string name="unread_action">خوانده نشد.</string>
     <!-- Menu item/button name -->
     <string name="favorite_action">جالب</string>
     <!-- Menu item/button name -->
@@ -123,9 +123,9 @@
     <!-- Menu item -->
     <string name="accounts_action">حساب‌ها</string>
     <!-- Menu item -->
-    <string name="mark_as_read_action">خوانده شد</string>
+    <string name="mark_as_read_action">خوانده شد.</string>
     <!-- Menu item -->
-    <string name="mark_as_unread_action">خوانده نشد</string>
+    <string name="mark_as_unread_action">خوانده نشد.</string>
     <!-- Menu item -->
     <string name="add_cc_bcc_action">افزودن رونوشت یا رونوشت پنهان</string>
     <!-- Menu item -->
@@ -241,7 +241,7 @@
     <!-- Header for forwarded original messages -->
     <string name="message_compose_fwd_header_fmt">‏\n\n-------- نامهٔ اصلی --------\nموضوع: <xliff:g id="subject">%1$Ls</xliff:g>\nاز: <xliff:g id="sender">%2$Ls</xliff:g>\nبه: <xliff:g id="to">%3$Ls</xliff:g>\nرونوشت: <xliff:g id="cc">%4$Ls</xliff:g>\n\n</string>
     <!-- Header for replied-to messages -->
-    <string name="message_compose_reply_header_fmt">\n\n<xliff:g id="sender">%Ls</xliff:g> نوشت:\n\n</string>
+    <string name="message_compose_reply_header_fmt">\n\n<xliff:g id="sender">%s</xliff:g> نوشت:\n\n</string>
     <!-- Heading that appears before forwarded text -->
     <string name="message_compose_quoted_text_label">متن قبلی</string>
     <!-- Toast that appears if you try to send with no recipients. -->
@@ -249,7 +249,7 @@
     <!-- An address field contains invalid email addresses. -->
     <string name="message_compose_error_invalid_email">بعضی از نشانی‌های پست الکترونیکی غیر معتبر است.</string>
     <!-- Toast that appears in the context of forwarding a message with attachment(s) -->
-    <string name="message_compose_attachments_skipped_toast">بعضی از ضمیمه‌ها  دریافت نشده‌اند و نمی‌توان آن‌ها را فوروارد کرد.</string>
+    <string name="message_compose_attachments_skipped_toast">بعضی از ضمیمه‌ها دریافت نشده‌اند و نمی‌توان آن‌ها را فوروارد کرد.</string>
     <!-- Toast that appears when an attachment is too big to send. -->
     <string name="message_compose_attachment_size">پرونده‌ای با این حجم را نمی‌توان ضمیمه کرد.</string>
     <!-- Display name for composed message, indicating the destination of the message.
@@ -264,7 +264,7 @@
     <!-- Button name -->
     <string name="message_view_attachment_download_action">ذخیره</string>
     <!-- Toast after saving attachment -->
-    <string name="message_view_status_attachment_saved">ضمیمه با عنوان <xliff:g id="filename">%Ls</xliff:g>در کارت حافظه ذخیره شد.</string>
+    <string name="message_view_status_attachment_saved">ضمیمه با عنوان <xliff:g id="filename">%s</xliff:g>در کارت حافظه ذخیره شد.</string>
     <!-- Toast after attachment could not be saved-->
     <string name="message_view_status_attachment_not_saved">امکان ذخیرهٔ ضمیمه وجود ندارد.</string>
     <!-- Displayed in message view -->
@@ -328,7 +328,7 @@
     <string name="account_setup_basics_manual_setup_action">تنظیمات دستی</string>
     <!-- Toast when we can't build a URI from the given email & password -->
     <!-- Note, the error message in the toast is purposefully vague, because I *don't* know exactly what's wrong. -->
-    <string name="account_setup_username_password_toast">آدرس پست الکترونیکی و گذرواژهٔ معتبری را وارد نمایید.</string>
+    <string name="account_setup_username_password_toast">آدرس پست الکترونیکی و گذرواژهٔ معتبری وارد نمایید.</string>
     <!-- Title of dialog shown when a duplicate account is created -->
     <string name="account_duplicate_dlg_title">حساب تکراری</string>
     <!-- Message of dialog shown when a duplicate account is created.  The display name of
@@ -480,17 +480,17 @@
     <!-- "Setup could not finish" dialog text; e.g., Username or password incorrect -->
     <string name="account_setup_failed_dlg_auth_message">نام کاربری یا گذرواژه صحیح نمی‌باشد.</string> 
     <!-- "Setup could not finish" dialog text; e.g., Username or password incorrect\n(ERR01 Account does not exist) -->
-    <string name="account_setup_failed_dlg_auth_message_fmt">نام کاربری یا گذرواژه صحیح نمی‌باشد.\n(<xliff:g id="error">%Ls</xliff:g>)</string> 
+    <string name="account_setup_failed_dlg_auth_message_fmt">نام کاربری یا گذرواژه صحیح نمی‌باشد.\n(<xliff:g id="error">%s</xliff:g>)</string> 
 
     <!-- "Setup could not finish" dialog text; e.g., Cannot safely connect to server -->
     <string name="account_setup_failed_dlg_certificate_message">اتصال امن به سرور ممکن نیست.</string> 
     <!-- "Setup could not finish" dialog text; e.g., Cannot safely connect to server\n(TLS Not Supported) -->
-    <string name="account_setup_failed_dlg_certificate_message_fmt">اتصال امن به سرور ممکن نیست.\n(<xliff:g id="error">%Ls</xliff:g>)</string>
+    <string name="account_setup_failed_dlg_certificate_message_fmt">اتصال امن به سرور ممکن نیست.\n(<xliff:g id="error">%s</xliff:g>)</string>
 
     <!-- "Setup could not finish" dialog text; e.g., Cannot connect to server -->
     <string name="account_setup_failed_dlg_server_message">اتصال به سرور امکان‌پذیر نمی‌باشد.</string> 
     <!-- "Setup could not finish" dialog text; e.g., Cannot connect to server\n(Connection timed out) -->
-    <string name="account_setup_failed_dlg_server_message_fmt">اتصال به سرور امکان‌پذیر نمی‌باشد.\n(<xliff:g id="error">%Ls</xliff:g>)</string> 
+    <string name="account_setup_failed_dlg_server_message_fmt">اتصال به سرور امکان‌پذیر نمی‌باشد.\n(<xliff:g id="error">%s</xliff:g>)</string> 
 
     <!-- Additional diagnostic text when TLS was required but the server doesn't support it -->
     <string name="account_setup_failed_tls_required">‏TLS لازم است، اما توسط سرور پشتیبانی نمی‌شود.</string>
@@ -507,21 +507,21 @@
     <!-- Additional diagnostic text when validation requires security provisioning (e.g. support
          for device lock PIN, or remote wipe.) and we ask the user permission before continuing. -->
     <string name="account_setup_security_policies_required_fmt">
-         برای اتمام راه‌اندازی این حساب، سرور <xliff:g id="server">%Ls</xliff:g> نیاز به اجازهٔ شما برای کنترل بعضی از ویژگی‌های گوشی دارد. موافقید؟
+         برای اتمام راه‌اندازی این حساب، سرور <xliff:g id="server">%s</xliff:g> نیاز به اجازهٔ شما برای کنترل بعضی از ویژگی‌های گوشی دارد. موافقید؟
          </string>
     <!-- Additional diagnostic text when validation failed due to required provisioning not
          being supported -->
     <string name="account_setup_failed_security_policies_unsupported">امکانات امنیتی مورد نیاز این سرور توسط گوشی شما پشتیبانی نمی‌شود.</string>
 
     <!-- Notification ticker  when device security required -->
-    <string name="security_notification_ticker_fmt">تنظیمات امنیتی حساب «<xliff:g id="account">%Ls</xliff:g>» باید به‌روز شود.
+    <string name="security_notification_ticker_fmt">تنظیمات امنیتی حساب «<xliff:g id="account">%s</xliff:g>» باید به‌روز شود.
     </string>
     <!-- Notification content title when device security required -->
 <string name="security_notification_content_title">به‌روزرسانی تنظیمات امنیتی</string>
     <!-- Title of the activity that dispatches changes to device security.  Not normally seen. -->
     <string name="account_security_title">امنیت گوشی</string>
     <!-- Additional diagnostic text when the email app asserts control of the phone. -->
-    <string name="account_security_policy_explanation_fmt">سرور <xliff:g id="server">%Ls</xliff:g> نیاز به اجازهٔ شما برای کنترل از راه دور بعضی از ویژگی‌های امنیتی گوشی شما نیاز دارد.</string>
+    <string name="account_security_policy_explanation_fmt">سرور <xliff:g id="server">%s</xliff:g> نیاز به اجازهٔ شما برای کنترل از راه دور بعضی از ویژگی‌های امنیتی گوشی شما نیاز دارد.</string>
 
     <!-- "Setup could not finish" dialog action button -->
     <string name="account_setup_failed_dlg_edit_details_action">ویرایش جزئیات</string>
@@ -585,7 +585,7 @@
     <!-- Title of Remove account confirmation dialog box -->
     <string name="account_delete_dlg_title">حذف حساب</string>
     <!-- Message of Remove account confirmation dialog box -->
-    <string name="account_delete_dlg_instructions_fmt">حساب «<xliff:g id="account">%Ls</xliff:g>» از پست الکترونیکی شما حذف خواهد شد.</string>
+    <string name="account_delete_dlg_instructions_fmt">حساب «<xliff:g id="account">%s</xliff:g>» از پست الکترونیکی شما حذف خواهد شد.</string>
 
     <!-- Title of Upgrade Accounts activity -->
     <string name="upgrade_accounts_title">ارتقاء حساب‌ها</string>
@@ -608,23 +608,23 @@
     <!-- Message subject for meeting accepted response.  This will be followed by a colon
          and the title of the meeting (i.e. the title of the meeting becomes part of the subject of
          the message that's sent) -->
-    <string name="meeting_accepted">پذیرفته شده: <xliff:g id="subject">%Ls</xliff:g></string>
+    <string name="meeting_accepted">پذیرفته شده: <xliff:g id="subject">%s</xliff:g></string>
     <!-- Message subject for meeting declined response. This is followed by a colon
          and the title of the meeting (i.e. the title of the meeting becomes part of the subject of
          the message that's sent) -->
-    <string name="meeting_declined">رد شده: <xliff:g id="subject">%Ls</xliff:g></string>
+    <string name="meeting_declined">رد شده: <xliff:g id="subject">%s</xliff:g></string>
     <!-- Message subject for meeting tentative response.  This is followed by a colon
          and the title of the meeting (i.e. the title of the meeting becomes part of the subject of
          the message that's sent) -->
-    <string name="meeting_tentative">مردد: <xliff:g id="subject">%Ls</xliff:g></string>
+    <string name="meeting_tentative">مردد: <xliff:g id="subject">%s</xliff:g></string>
     <!-- Message subject for a canceled meeting email.  This is followed by a colon
          and the title of the meeting (i.e. the title of the meeting becomes part of the subject of
          the message that's sent) -->
-    <string name="meeting_canceled">لغو شده: <xliff:g id="subject">%Ls</xliff:g></string>
+    <string name="meeting_canceled">لغو شده: <xliff:g id="subject">%s</xliff:g></string>
     <!-- Message subject for an updated meeting email.  This is followed by a colon
          and the title of the meeting (i.e. the title of the meeting becomes part of the subject of
          the message that's sent) -->
-    <string name="meeting_updated">به‌روز‌شده: <xliff:g id="subject">%Ls</xliff:g></string>
+    <string name="meeting_updated">به‌روز‌شده: <xliff:g id="subject">%s</xliff:g></string>
 
     <!-- Indicate when a meeting takes place.  This is presented in in bullet form, as
          in, "When: xxx" followed by "Where: xxx" -->
@@ -639,10 +639,10 @@
 
     <!-- Used as the body text of a message reporting to an attendee that a specific instance
          of a recurring meeting has been canceled -->
-    <string name="exception_cancel">این رویداد، <xliff:g id="date">%s</xliff:g> تکرار نخواهد شد.</string>
+    <string name="exception_cancel">این رویداد، <xliff:g id="date">%Ls</xliff:g> تکرار نخواهد شد.</string>
     <!-- Used as the body text of a message reporting to an attendee that a specific instance
          of a recurring meeting has been changed -->
-    <string name="exception_updated">جزئیات این رویداد برای <xliff:g id="date">%s</xliff:g> تغییر کرد.</string>
+    <string name="exception_updated">جزئیات این رویداد برای <xliff:g id="date">%Ls</xliff:g> تغییر کرد.</string>
 
 	<!-- Message that appears if the AccountManager cannot create the system Account -->
 	<string name="system_account_create_failed">ساختن حساب در حال حاضر ممکن نیست. بعداً امتحان کنید.</string>
@@ -661,7 +661,7 @@
 
     <!-- Displayed in small separator in to/cc/bcc dropdowns, when searching GAL begins.
          Example:  "Searching bigcompany.com..." -->
-    <string name="gal_searching_fmt">جستجو در <xliff:g id="domain">%Ls</xliff:g>\u2026</string>
+    <string name="gal_searching_fmt">جستجو در <xliff:g id="domain">%s</xliff:g>\u2026</string>
     <!-- Displayed in small separator in to/cc/bcc dropdowns, when searching GAL completes,
          and all of the server results are being displayed.  Example:
          "5 results from bigcompany.com..."  -->
