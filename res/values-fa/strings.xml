@@ -73,7 +73,7 @@
     <!--  Button name used to confirm acceptance of dialog boxes, warnings, errors, etc. -->
     <string name="okay_action">خُب</string>
     <!--  Button name used to cancel out of dialog boxes -->
-    <string name="cancel_action">نه</string>
+    <string name="cancel_action">نکن</string>
     <!-- Menu item/button name -->
     <string name="send_action">ارسال</string>
     <!-- Menu item/button name -->
