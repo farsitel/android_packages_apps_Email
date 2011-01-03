@@ -59,6 +59,7 @@ import android.os.AsyncTask;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.SystemClock;
+import android.text.format.DateFormat;
 import android.util.Log;
 import android.view.ContextMenu;
 import android.view.LayoutInflater;
@@ -1777,6 +1778,8 @@ public class MessageList extends ListActivity implements OnItemClickListener, On
 
         private java.text.DateFormat mDateFormat;
         private java.text.DateFormat mTimeFormat;
+        private String mDateFormatString;
+        private String mTimeFormatString;
 
         private HashSet<Long> mChecked = new HashSet<Long>();
 
@@ -1802,6 +1805,8 @@ public class MessageList extends ListActivity implements OnItemClickListener, On
 
             mDateFormat = android.text.format.DateFormat.getDateFormat(context);    // short date
             mTimeFormat = android.text.format.DateFormat.getTimeFormat(context);    // 12/24 time
+            mDateFormatString = android.text.format.DateFormat.getDateFormatString(context);    // short date
+            mTimeFormatString = android.text.format.DateFormat.getTimeFormatString(context);    // 12/24 time
         }
 
         /**
@@ -1924,9 +1929,11 @@ public class MessageList extends ListActivity implements OnItemClickListener, On
             long timestamp = cursor.getLong(COLUMN_DATE);
             Date date = new Date(timestamp);
             if (Utility.isDateToday(date)) {
-                text = mTimeFormat.format(date);
+                //text = mTimeFormat.format(date);
+                text = DateFormat.format(mTimeFormatString, date, mContext).toString();
             } else {
-                text = mDateFormat.format(date);
+                //text = mDateFormat.format(date);
+                text = DateFormat.format(mDateFormatString, date, mContext).toString();
             }
             dateView.setText(text);
 

@@ -46,7 +46,7 @@ import android.net.Uri;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.os.Handler;
-import android.util.Log;
+import android.text.format.Jalali;
 import android.view.ContextMenu;
 import android.view.LayoutInflater;
 import android.view.Menu;
@@ -740,12 +740,12 @@ public class MailboxList extends ListActivity implements OnItemClickListener, On
                 case Mailbox.TYPE_TRASH:
                     unreadCountView.setVisibility(View.GONE);
                     allCountView.setVisibility(View.VISIBLE);
-                    allCountView.setText(text);
+                    allCountView.setText(Jalali.persianDigitsIfPersian(text));
                     break;
                 default:
                     allCountView.setVisibility(View.GONE);
                     unreadCountView.setVisibility(View.VISIBLE);
-                    unreadCountView.setText(text);
+                    unreadCountView.setText(Jalali.persianDigitsIfPersian(text));
                     break;
             }
             } else {

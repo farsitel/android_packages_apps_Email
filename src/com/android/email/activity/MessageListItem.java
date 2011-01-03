@@ -23,6 +23,7 @@ import android.util.AttributeSet;
 import android.util.Log;
 import android.view.MotionEvent;
 import android.widget.RelativeLayout;
+import android.util.Log;
 
 /**
  * This custom View is the list item for the MessageList activity, and serves two purposes:
@@ -49,6 +50,8 @@ public class MessageListItem extends RelativeLayout {
     private boolean firstRecorded;
     private boolean magicMb;
     private long parentId;
+    private int mCheckLeft;
+    private int mStarRight;
 
     // Padding to increase clickable areas on left & right of each list item
     private final static float CHECKMARK_PAD = 10.0F;
@@ -97,18 +100,30 @@ public class MessageListItem extends RelativeLayout {
             int starPadding = (int) ((STAR_PAD * paddingScale) + 0.5);
             mCheckRight = findViewById(R.id.selected).getRight() + checkPadding;
             mStarLeft = findViewById(R.id.favorite).getLeft() - starPadding;
+            mCheckLeft = findViewById(R.id.selected).getLeft() - checkPadding;
+            mStarRight = findViewById(R.id.favorite).getRight() + starPadding;
             mCachedViewPositions = true;
         }
-
+        
         switch (event.getAction()) {
             case MotionEvent.ACTION_DOWN:
                 mDownEvent = true;
-                if ((mAllowBatch && touchX < mCheckRight)) {
-                    handled = true;
-                } else if (touchX > mStarLeft) {
-                    firstX = touchX;
-                    firstRecorded = true;
-                    handled = true;
+                if (mRTL) {
+                    if (mAllowBatch && touchX > mCheckLeft) {
+                        handled = true;
+                    } else if (touchX < mStarRight) {
+                        firstX = touchX;
+                        firstRecorded = true;
+                        handled = true;
+                    }
+                } else {
+                    if (mAllowBatch && touchX < mCheckRight) {
+                        handled = true;
+                    } else if (touchX > mStarLeft) {
+                        firstX = touchX;
+                        firstRecorded = true;
+                        handled = true;
+                    }
                 }
                 break;
 
@@ -118,14 +133,26 @@ public class MessageListItem extends RelativeLayout {
 
             case MotionEvent.ACTION_UP:
                 if (mDownEvent) {
-                    if (mAllowBatch && touchX < mCheckRight) {
-                        mSelected = !mSelected;
-                        mAdapter.updateSelected(this, mSelected);
-                        handled = true;
-                    } else if (touchX > mStarLeft) {
-                        mFavorite = !mFavorite;
-                        mAdapter.updateFavorite(this, mFavorite);
-                        handled = true;
+                    if (mRTL) {
+                        if (mAllowBatch && touchX > mCheckLeft) {
+                            mSelected = !mSelected;
+                            mAdapter.updateSelected(this, mSelected);
+                            handled = true;
+                        } else if (touchX < mStarRight) {
+                            mFavorite = !mFavorite;
+                            mAdapter.updateFavorite(this, mFavorite);
+                            handled = true;
+                        }
+                    } else {
+                        if (mAllowBatch && touchX < mCheckRight) {
+                            mSelected = !mSelected;
+                            mAdapter.updateSelected(this, mSelected);
+                            handled = true;
+                        } else if (touchX > mStarLeft) {
+                            mFavorite = !mFavorite;
+                            mAdapter.updateFavorite(this, mFavorite);
+                            handled = true;
+                        }
                     }
                 }
                 firstRecorded = false;
