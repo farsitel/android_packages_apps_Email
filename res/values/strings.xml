@@ -735,7 +735,7 @@
     <string name="account_client_certificate_import_error">Error importing certificate using the given password</string>
 
     <string name="sample_account_name" >Sample Account Name</string>
-    <string name="default_rgb_value" >255</string>
+    <string name="default_rgb_value" translatable="false">255</string>
     <string name="default_html_color_code" >0xFFFFFFFF</string>
 
     <string name="widget_name">Email</string>
