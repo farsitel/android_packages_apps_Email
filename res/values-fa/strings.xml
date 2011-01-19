@@ -676,4 +676,7 @@
          and a limited amount (not all) of the server results are being displayed.  This is
          always a larger value because it represents the limit of displayed results.  -->
     <string name="gal_completed_limited_fmt">‏<xliff:g id="results" example="20">%1$Ld</xliff:g> نتیجهٔ اول از <xliff:g id="domain">%2$Ls</xliff:g></string>
+
+    <string name="widget_name">پست الکترونیکی</string>
+
 </resources>
